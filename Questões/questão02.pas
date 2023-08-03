@@ -54,7 +54,7 @@ begin
   if paridade then // Se a quantidade for par, mostra isso
     Writeln('Essa quantidade e um numero par.')
   else // Senão, se a quantidade não for par, mostra que não é par
-    Writeln('Essa quantidade nao e um número par.');
+    Writeln('Essa quantidade nao e um numero par.');
 
   
 
