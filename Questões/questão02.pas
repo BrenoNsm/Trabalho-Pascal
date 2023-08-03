@@ -49,12 +49,12 @@ begin
   quantidadeValores := qtdEntre(numero1, numero2); // Calculamos a quantidade de valores inteiros entre os dois números que você digitou
   paridade := Par(quantidadeValores); // E também verificamos se a quantidade é par ou não
 
-  Writeln('A quantidade de valores inteiros entre ', numero1, ' e ', numero2, ' é: ', quantidadeValores); // mostra na tela a quantidade de valores
+  Writeln('A quantidade de valores inteiros entre ', numero1, ' e ', numero2, ' e: ', quantidadeValores); // mostra na tela a quantidade de valores
 
   if paridade then // Se a quantidade for par, mostra isso
-    Writeln('Essa quantidade é um número par.')
+    Writeln('Essa quantidade e um numero par.')
   else // Senão, se a quantidade não for par, mostra que não é par
-    Writeln('Essa quantidade não é um número par.');
+    Writeln('Essa quantidade nao e um número par.');
 
   
 
